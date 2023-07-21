@@ -1,0 +1,24 @@
+{
+    "posts":[
+        {
+            "id":1,
+            "title":"Welcome to my blog",
+            "body":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, minus at. Labore neque, officia quibusdam repellendus facere voluptatem, commodi harum iusto distinctio ratione vero odit quia explicabo architecto. Recusandae facere corporis cum nesciunt exercitationem rerum nostrum consequuntur accusantium eaque minima, eius vitae! Earum esse nostrum ullam nemo blanditiis libero a sunt autem ipsa, ea iusto mollitia, tenetur eligendi aliquid provident voluptatem ut. Delectus quaerat earum nobis fugiat, libero consequatur ullam aliquam voluptatum numquam quia. Dignissimos, saepe, sit quas dicta quo ipsum, a ullam incidunt ipsam minus fugit. Est quos corrupti voluptatum voluptatem eaque nobis omnis adipisci necessitatibus, unde vero, aliquam iusto dignissimos architecto quod! Minus in vero, aperiam ipsa omnis nesciunt, eum similique incidunt sapiente quos velit atque. Consequuntur similique dolores enim illo quas sunt officiis porro nobis delectus, hic incidunt quos, saepe maxime. Voluptate similique eligendi atque laudantium eos assumenda, ab velit exercitationem asperiores, doloremque enim dolores, libero repellat.",
+            "tags":[
+                "web-development",
+                "coding",
+                "news"
+            ]
+        },
+        {
+            "id":2,
+            "title":"Top 5 CSS tips",
+            "body":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, minus at. Labore neque, officia quibusdam repellendus facere voluptatem, commodi harum iusto distinctio ratione vero odit quia explicabo architecto. Recusandae facere corporis cum nesciunt exercitationem rerum nostrum consequuntur accusantium eaque minima, eius vitae! Earum esse nostrum ullam nemo blanditiis libero a sunt autem ipsa, ea iusto mollitia, tenetur eligendi aliquid provident voluptatem ut. Delectus quaerat earum nobis fugiat, libero consequatur ullam aliquam voluptatum numquam quia. Dignissimos, saepe, sit quas dicta quo ipsum, a ullam incidunt ipsam minus fugit. Est quos corrupti voluptatum voluptatem eaque nobis omnis adipisci necessitatibus, unde vero, aliquam iusto dignissimos architecto quod! Minus in vero, aperiam ipsa omnis nesciunt, eum similique incidunt sapiente quos velit atque. Consequuntur similique dolores enim illo quas sunt officiis porro nobis delectus, hic incidunt quos, saepe maxime. Voluptate similique eligendi atque laudantium eos assumenda, ab velit exercitationem asperiores, doloremque enim dolores, libero repellat.",
+            "tags":[
+                "css",
+                "coding",
+                "news"
+            ]
+        }
+    ]
+}
