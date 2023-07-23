@@ -14,7 +14,7 @@
 </template>
 <script>
 import PostList from '../components/PostList.vue';
-import updatePost from '../computables/updatePost.js';
+import updatePost from '../composables/updatePost.js';
 // @ is an alias to /src
 
 
