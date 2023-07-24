@@ -9,9 +9,10 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/details',
+    path: '/posts/:id',//routes to a single post
     name: 'details',
-    component: Details
+    component: Details,
+    props:true
   }
  
 ]
