@@ -1,22 +1,25 @@
 <template>
 <div v-if="err">Error in page</div>
-  <div v-for= "detail in details" :key = "detail.id">
+  <div v-if= "details">
       <p>{{details.title}}</p>
       <p>{{details.body}}</p>
+       <span v-for= "tag in details.tags" :key = "tag">
+            <p>{{tag}}</p>
+        </span>
   </div>
-  <div>Test</div>
+ 
 </template>
 
 <script>
-import updateDetails from '../composables/updateDetails.js'
+import updateDetails from '../composables/updateDetails';
 export default {
     components:{ updateDetails },
-    setup(){
+    props:["id"],//Fetch data based on id from Details using props
+    setup(props){
 
-    const {link, err, details} = updateDetails();
+    const {link, err, details} = updateDetails(props.id);
     
     link();
-    console.log(details);
     return{link, err, details}
     }
 }
